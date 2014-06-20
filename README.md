@@ -40,7 +40,7 @@ HEREDOC;
 @(include_once("phpTabDownArrayJsonTree.php")) OR die ("Failed to include phpTabDownArrayJsonTree.php");
 
 // Convert to Array
-$tabDown = tabDown($org_chart, "\t");
+$tabDown = tabDown($org_chart);
 
 // Make Json
 $json = json_format(json_encode($tabDown));
