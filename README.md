@@ -90,3 +90,6 @@ echo $json;
 
 The optput may be used by JQuery Tree interfaces like this one:
 http://www.jquery4u.com/demos/online-json-tree-viewer/
+
+Here's a live Example:
+http://jsfiddle.net/DR3D6/
