@@ -37,7 +37,8 @@ Constitution
 		Other Federal Courts
 HEREDOC;
 
-@(include_once("phpTabDownArrayJsonTree.php")) OR die ("Failed to include phpTabDownArrayJsonTree.php");
+@(include_once("phpTabDownArrayJsonTree.php")) 
+	OR die ("Failed to include phpTabDownArrayJsonTree.php");
 
 // Convert to Array
 $tabDown = tabDown($org_chart);
@@ -88,8 +89,8 @@ echo $json;
 }
 ```
 
-The optput may be used by JQuery Tree interfaces like this one:
-http://www.jquery4u.com/demos/online-json-tree-viewer/
+The output may be used by JQuery Tree interfaces like this one:
+* http://www.jquery4u.com/demos/online-json-tree-viewer/
 
 Here's a live Example:
-http://jsfiddle.net/DR3D6/
+* http://jsfiddle.net/DR3D6/
