@@ -18,8 +18,7 @@ https://github.com/freshdried/tabdown
     * https://github.com/GerHobbelt/nicejson-php
 
 
-** Hierarchical organization _Input_ **
-http://www.usa.gov/Agencies/federal.shtml#How_the_U.S._Government_Is_Organized
+**Hierarchical organization _Input_**
 ```PHP
 <?php
 
@@ -53,7 +52,7 @@ echo $json;
 ?>
 ```
 
-__ Hierarchical organization *Output* __
+**Hierarchical organization _Output_**
 ```
 {
 	"Constitution\r": {
