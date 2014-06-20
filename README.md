@@ -53,7 +53,7 @@ echo $json;
 ```
 
 **Hierarchical organization _Output_**
-```
+```json
 {
 	"Constitution\r": {
 		"Legislative Branch\r": {
