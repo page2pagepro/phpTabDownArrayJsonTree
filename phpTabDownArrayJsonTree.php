@@ -1,29 +1,5 @@
 <?php
 
-function txtFileToArray($file) { 
-	$arr = null;
-	if( file_exists($file) ){
-		$handle = fopen($file, "r") or die("Couldn't get handle");
-		while (($line = fgets($handle)) !== false) {
-			$arr[] = preg_replace('[\r|\n]', '', $line);
-		}
-		fclose($handle);
-	}
-	return $arr;
-}
-
-function txtFileToString($file) { 
-	$str = null;
-	if( file_exists($file) ){
-		$handle = fopen($file, "r") or die("Couldn't get handle");
-		while (($line = fgets($handle)) !== false) {
-			$str .= $line;
-		}
-		fclose($handle);
-	}
-	return $str;
-}
-
 // original code: http://www.daveperrett.com/articles/2008/03/11/format-json-with-php/
 // adapted to allow native functionality in php version >= 5.4.0
 // https://github.com/GerHobbelt/nicejson-php
